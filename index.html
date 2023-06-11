@@ -4,6 +4,43 @@ DIRECTIONS: These practice problems will work similar to the ones we saw in the 
 
 
 <!-- COMBINE YOUR CODE HERE FOR PROBLEMS 1-4 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>Item1</li>
+      <li>Item2</li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h1>Heading</h1>
+      <h2>Subheading</h2>
+      <p>Content ...</p>
+    </section>
+  </main>
+  <script>
+    function runScript() {
+      console.log("Script is running correctly...")
+    } runScript();
+
+    let num = 5;
+    function multiplyByFive() {
+      result = num * 5
+      return result;
+    }
+    const product = multiplyByFive(num);
+    console.log(product);
+  </script>
+</body>
+
+</html>
 
 
 <!-- PROBLEM 1: From scratch, first construct your own HTML document with these four items: "doctype declaration", and the <html>, <head>, and <body> tags AND then add a few semantic tags of your choice within the <body> section. -->
@@ -12,27 +49,30 @@ DIRECTIONS: These practice problems will work similar to the ones we saw in the 
 
 <!-- PROBLEM 3:  Within that <script> tag, write a function called "runScript" that prints to the console: "Script is running correctly..."  Finally, invoke this function and check the Replit console to confirm that it ran. -->
 
-<!-- PROBLEM 4: Underneath your last function, declare a variable and assign it a number value, of any number.  Write a function called "multiplyByFive" that accepts a number argument and returns that number multiplied by five.  Finally, invoke that function by passing your number variable as an argument, save that return value to another variable, and print it to the Replit console. --> 
+<!-- PROBLEM 4: Underneath your last function, declare a variable and assign it a number value, of any number.  Write a function called "multiplyByFive" that accepts a number argument and returns that number multiplied by five.  Finally, invoke that function by passing your number variable as an argument, save that return value to another variable, and print it to the Replit console. -->
 
-<!-- PROBLEM 5 (DEBUGGING): The following HTML markup will not work.  Find the mistake, so that the browser can clearly read the proper script code and styling markup.
+<!-- PROBLEM 5 (DEBUGGING): The following HTML markup will not work.  Find the mistake, so that the browser can clearly read the proper script code and styling markup. -->
 
-<!--
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-  <head>
-    <script> console.log("Will this print first?") </script>
-  </head>
-  <body>
-    <nav>
-    </nav>
-    <main>
-    </main>
-    <style>
-        li {
-            color: black;
-            border: 2px solid gray;
-        }
-    </style>
-  </body>
+
+<head>
+  <script> console.log("Will this print first?")</script>
+  <!-- closing comment tag missing from Problem 5 instruction -->
+</head>
+
+<body>
+  <nav>
+    <li>2nd NavItem</li>
+  </nav>
+  <main>
+  </main>
+  <style>
+    li {
+      color: green;
+      border: 2px solid gray;
+    }
+  </style>
+</body>
+
 </html>
--->
